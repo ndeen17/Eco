@@ -149,7 +149,7 @@ const Products = () => {
                   <ShoppingCart className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
                   Buy Now
                   <span className="ml-auto opacity-75 group-hover:opacity-100 transition-opacity text-xs sm:text-sm">
-                    WhatsApp
+          
                   </span>
                 </button>
               </div>
