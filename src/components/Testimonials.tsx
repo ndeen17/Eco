@@ -3,49 +3,43 @@ import { Star, Quote } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Adebayo Ogundimu",
       title: "Solar Installer",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616c9dc2d7c?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "ECOTECH batteries are absolutely incredible! The 8000+ cycle life is exactly as promised. I've installed over 200 systems and these are the most reliable batteries I've ever worked with.",
       project: "Residential Solar Farm"
     },
     {
-      name: "Michael Chen",
+      name: "Chioma Nwankwo",
       title: "Energy Engineer",
-      avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "The Smart BMS system is a game-changer. Real-time monitoring and the mobile app make managing our energy storage so much easier. Professional grade quality at an amazing price.",
       project: "Commercial Installation"
     },
     {
-      name: "Emma Rodriguez",
+      name: "Fatima Abdullahi",
       title: "Homeowner",
-      avatar: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "I was skeptical about solar at first, but ECOTECH made everything so simple. Fast delivery, easy installation guide, and the customer support is outstanding. My electricity bill is now $0!",
       project: "Home Energy System"
     },
     {
-      name: "David Kim",
+      name: "Kemi Oladele",
       title: "Off-Grid Enthusiast",
-      avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "Living completely off-grid with ECOTECH batteries for 2 years now. Zero issues, consistent performance, and the 5-year warranty gives me complete peace of mind. Highly recommend!",
       project: "Off-Grid Cabin Setup"
     },
     {
-      name: "Lisa Thompson",
+      name: "Ngozi Okechukwu",
       title: "Business Owner",
-      avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "Our warehouse runs entirely on ECOTECH solar solutions. The ROI was achieved in just 18 months. Professional installation support and monitoring capabilities are exceptional.",
       project: "Industrial Solar System"
     },
     {
-      name: "Robert Wilson",
+      name: "Tunde Akinola",
       title: "Contractor",
-      avatar: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&h=150&fit=crop&crop=face",
       rating: 5,
       text: "As a contractor, I only recommend products I trust. ECOTECH has never let me down. Quality components, reliable performance, and great customer service. My go-to solar solution.",
       project: "Multiple Installations"
@@ -91,11 +85,11 @@ const Testimonials = () => {
 
               {/* Customer Info */}
               <div className="flex items-center space-x-3 sm:space-x-4">
-                <img 
-                  src={testimonial.avatar}
-                  alt={testimonial.name}
-                  className="w-10 h-10 sm:w-12 sm:h-12 rounded-full border-2 border-primary/20"
-                />
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-full bg-gradient-to-br from-primary/20 to-secondary/20 border-2 border-primary/20 flex items-center justify-center">
+                  <span className="text-primary font-bold text-sm sm:text-base">
+                    {testimonial.name.split(' ').map(n => n[0]).join('')}
+                  </span>
+                </div>
                 <div>
                   <h4 className="font-semibold text-foreground text-sm sm:text-base">{testimonial.name}</h4>
                   <p className="text-xs sm:text-sm text-muted-foreground">{testimonial.title}</p>
@@ -139,7 +133,7 @@ const Testimonials = () => {
             Let's discuss your energy needs and create your success story.
           </p>
           <a 
-            href="https://wa.me/1234567890?text=Hi,%20I%20want%20to%20join%20your%20success%20stories!%20Can%20you%20help%20me%20with%20solar%20solutions?"
+            href="https://wa.link/43chx8"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-hero text-sm sm:text-base"

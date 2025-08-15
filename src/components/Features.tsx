@@ -127,7 +127,7 @@ const Features = () => {
                 Join thousands of satisfied customers who've made the switch to clean, reliable solar energy.
               </p>
               <a 
-                href="https://wa.me/1234567890?text=Hi,%20I'm%20ready%20to%20experience%20ECOTECH%20solar%20solutions.%20Can%20we%20discuss%20my%20energy%20needs?"
+                href="https://wa.link/43chx8"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-hero text-sm sm:text-base"
