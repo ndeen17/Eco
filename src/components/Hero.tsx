@@ -68,7 +68,7 @@ const Hero = () => {
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </button>
             <a 
-              href="https://wa.me/1234567890?text=Hi,%20I'm%20interested%20in%20ECOTECH%20solar%20solutions.%20Can%20you%20tell%20me%20more?"
+              href="https://wa.link/43chx8"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-ghost-glow text-base sm:text-lg px-6 sm:px-8 py-3 sm:py-4"

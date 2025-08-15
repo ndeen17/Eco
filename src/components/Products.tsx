@@ -60,7 +60,7 @@ const Products = () => {
   ];
 
   const handleBuyNow = (productName: string, message: string) => {
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.link/43chx8`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -163,7 +163,7 @@ const Products = () => {
             Need a custom solution? Our experts are ready to help.
           </p>
           <a 
-            href="https://wa.me/1234567890?text=Hi,%20I%20need%20a%20custom%20solar%20solution.%20Can%20we%20discuss%20my%20requirements?"
+            href="https://wa.link/43chx8"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-ghost-glow text-sm sm:text-base"

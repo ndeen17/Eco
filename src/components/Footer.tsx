@@ -157,7 +157,7 @@ const Footer = () => {
         {/* Final CTA */}
         <div className="mt-6 sm:mt-8 text-center">
           <a 
-            href="https://wa.me/1234567890?text=Hi,%20I%20want%20to%20learn%20more%20about%20ECOTECH%20solar%20solutions!"
+            href="https://wa.link/43chx8"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center space-x-2 text-sm sm:text-base text-primary hover:text-primary-glow transition-colors"
